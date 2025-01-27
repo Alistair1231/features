@@ -13,8 +13,8 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - tex-fmt-homebrew
+          - watchman-homebrew
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -34,8 +34,8 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - tex-fmt-homebrew
+          - watchman-homebrew
     steps:
       - uses: actions/checkout@v4
 
