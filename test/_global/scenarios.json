@@ -1,9 +1,0 @@
-{
-  "all": {
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-    "features": {
-      "tex-fmt-homebrew": {},
-      "watchman-homebrew": {}
-    }
-  }
-}
