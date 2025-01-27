@@ -1,8 +1,8 @@
 {
   "id": "tex-fmt-homebrew",
-  "version": "1.0.0",
+  "version": "1.0.19",
   "name": "tex-fmt (via Homebrew)",
-  "documentationURL": "http://github.com/devcontainers-extra/features/tree/main/src/curl-homebrew",
+  "documentationURL": "https://github.com/Alistair1231/features/tree/main/src/tex-fmt-homebrew",
   "description": "An extremely fast LaTeX formatter written in Rust",
   "options": {
     "version": {
