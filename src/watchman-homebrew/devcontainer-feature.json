@@ -1,0 +1,16 @@
+{
+  "id": "watchman-homebrew",
+  "version": "1.0.0",
+  "name": "watchman (via Homebrew)",
+  "documentationURL": "http://github.com/devcontainers-extra/features/tree/main/src/curl-homebrew",
+  "description": "Watches files and records, or triggers actions, when they change.",
+  "options": {
+    "version": {
+      "default": "latest",
+      "description": "Select the version to install.",
+      "proposals": ["latest"],
+      "type": "string"
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers-extra/features/homebrew-package"]
+}
